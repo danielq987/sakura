@@ -117,6 +117,26 @@ const GdkRGBA linux_palette[PALETTE_SIZE] = {
 	{1,        1,        1,        1}
 };
 
+const GdkRGBA catppuccino_palette[PALETTE_SIZE] = {
+{0.1098, 0.11765, 0.17255},
+{0.92941, 0.52941, 0.58824},
+{0.65098, 0.8549, 0.58431},
+{0.93333, 0.83137, 0.62353},
+{0.54118, 0.67843, 0.95686},
+{0.96078, 0.74118, 0.90196},
+{0.56863, 0.84314, 0.8902},
+{0.64706, 0.67843, 0.79608},
+{0.1098, 0.11765, 0.17255},
+{0.96078, 0.66275, 0.49804},
+{0.1098, 0.11765, 0.17255},
+{0.50196, 0.52941, 0.63529},
+{0.79216, 0.82745, 0.96078},
+{0.77647, 0.62745, 0.96471},
+{0.94118, 0.77647, 0.77647},
+{0.79216, 0.82745, 0.96078},
+};
+
+
 const GdkRGBA solarized_palette[PALETTE_SIZE] = {
 	{0.027451, 0.211765, 0.258824, 1}, // 0 base02
 	{0.862745, 0.196078, 0.184314, 1}, // 1 red
@@ -175,27 +195,27 @@ const GdkRGBA xterm_palette[PALETTE_SIZE] = {
 	{1,        1,        1,        1}
 };
 
-const GdkRGBA rxvt_palette[PALETTE_SIZE] = {
-	{0,        0,        0,        1},
-	{0.803921, 0,        0,        1},
-	{0,        0.803921, 0,        1},
-	{0.803921, 0.803921, 0,        1},
-	{0,        0,        0.803921, 1},
-	{0.803921, 0,        0.803921, 1},
-	{0,        0.803921, 0.803921, 1},
-	{0.980392, 0.921568, 0.843137, 1},
-	{0.250980, 0.250980, 0.250980, 1},
-	{1,        0,        0,        1},
-	{0,        1,        0,        1},
-	{1,        1,        0,        1},
-	{0,        0,        1,        1},
-	{1,        0,        1,        1},
-	{0,        1,        1,        1},
-	{1,        1,        1,        1}
-};
+/* const GdkRGBA rxvt_palette[PALETTE_SIZE] = { */
+/* 	{0,        0,        0,        1}, */
+/* 	{0.803921, 0,        0,        1}, */
+/* 	{0,        0.803921, 0,        1}, */
+/* 	{0.803921, 0.803921, 0,        1}, */
+/* 	{0,        0,        0.803921, 1}, */
+/* 	{0.803921, 0,        0.803921, 1}, */
+/* 	{0,        0.803921, 0.803921, 1}, */
+/* 	{0.980392, 0.921568, 0.843137, 1}, */
+/* 	{0.250980, 0.250980, 0.250980, 1}, */
+/* 	{1,        0,        0,        1}, */
+/* 	{0,        1,        0,        1}, */
+/* 	{1,        1,        0,        1}, */
+/* 	{0,        0,        1,        1}, */
+/* 	{1,        0,        1,        1}, */
+/* 	{0,        1,        1,        1}, */
+/* 	{1,        1,        1,        1} */
+/* }; */
 
-const char *palettes_names[]= {"Solarized", "Tango", "Gruvbox","Nord","Xterm","Linux", "Rxvt", NULL};
-const GdkRGBA *palettes[] = {solarized_palette, tango_palette, gruvbox_palette, nord_palette, xterm_palette, linux_palette, rxvt_palette, NULL};
+const char *palettes_names[]= {"Solarized Your mom", "Tango", "Gruvbox","Nord","Xterm","Linux", "Catppuccino Macchiato", NULL};
+const GdkRGBA *palettes[] = {solarized_palette, tango_palette, gruvbox_palette, nord_palette, xterm_palette, linux_palette, catppuccino_palette, NULL};
 #define DEFAULT_PALETTE 1 /* Tango palette */
 
 /* Color schemes (fg&bg) for sakura. Each colorset can use a different scheme */
